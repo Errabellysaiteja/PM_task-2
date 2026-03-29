@@ -1,0 +1,4 @@
+Return Window: Customers may initiate returns within 30 days of delivery via the "My Orders" section.
+Condition: Items must be unused, unwashed, and in original packaging with tags intact.
+Return Fee: A 5% handling fee may be deducted for non-defective returns.
+Refund Timeline: Refunds are processed within 5 business days after inspection.

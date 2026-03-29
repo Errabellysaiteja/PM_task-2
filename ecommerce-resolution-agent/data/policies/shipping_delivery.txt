@@ -1,0 +1,8 @@
+# Purple Merit Technologies: Shipping and Lost Package Policy
+[Source: Internal Policy Pack - Section 3]
+
+1. Delivery Timelines: Standard shipping is 3-5 business days. Express is 1-2 business days.
+2. International Shipping (Region: EU/UK): Orders shipping to the European Union or UK are subject to a mandatory 14-day "Right of Withdrawal" period, regardless of standard company policy.
+3. Lost Packages: A package is considered "lost" if there is no tracking update for 7 consecutive business days.
+4. Claims: Claims for lost packages must be filed within 14 days of the estimated delivery date. We will issue a full refund or a one-time replacement at no cost.
+5. Wrong Address: Purple Merit is not responsible for lost packages if the customer provided an incorrect shipping address at checkout.

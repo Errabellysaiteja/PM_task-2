@@ -1,0 +1,4 @@
+Return Window: Customers can return items within 60 days of delivery.
+Condition: Items can be lightly used but must not be damaged.
+Return Fee: Free returns for all premium members; others pay shipping charges.
+Refund Timeline: Refunds are processed within 10–12 business days.

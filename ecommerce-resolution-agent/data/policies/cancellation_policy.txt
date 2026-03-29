@@ -1,0 +1,7 @@
+# Purple Merit Technologies: Order Cancellation Policy
+[Source: Internal Policy Pack - Section 2]
+
+1. Standard Cancellation: Customers may cancel an order for a full refund within 30 minutes of placement via the "My Orders" dashboard.
+2. Post-30 Minute Window: After 30 minutes, orders enter the "Processing" stage. Cancellations are not guaranteed but may be requested via Support. If the item has already been picked and packed, a 10% restocking fee applies.
+3. Shipped Orders: Once an order status is "Shipped," it cannot be cancelled. The customer must follow the standard Return Policy upon delivery.
+4. Custom/Personalized Items: Orders containing custom-engraved or made-to-order goods cannot be cancelled once production begins (typically 1 hour after order placement).

@@ -1,0 +1,4 @@
+Return Window: Customers must request returns within 15 days of delivery.
+Condition: Items must be unused and include all original accessories.
+Non-Returnable Items: Sale items are not eligible for return.
+Refund Timeline: Refunds are issued within 3–5 business days after approval.

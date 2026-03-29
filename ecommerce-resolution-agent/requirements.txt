@@ -1,0 +1,16 @@
+# Multi-Agent Framework
+crewai
+langchain
+langchain-community
+
+
+langchain-groq       
+langchain-google-genai 
+
+# Local Vector Store & Embeddings
+chromadb             
+sentence-transformers
+pypdf                # For parsing policy PDFs later
+
+# Environment Management
+python-dotenv
