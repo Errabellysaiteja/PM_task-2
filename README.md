@@ -16,7 +16,7 @@ An autonomous, multi-agent Retrieval-Augmented Generation (RAG) system designed 
 ecommerce-resolution-agent/
 ├── .github/
 │   └── workflows/
-│       └── ci.yml             # GitHub Actions CI/CD pipeline
+│       └── ci.yml             
 ├── data/
 │   └── policies/              # Raw e-commerce policy text files
 ├── src/
@@ -30,7 +30,6 @@ ecommerce-resolution-agent/
 ├── evaluation_results.json    # The output metrics from the 20 test cases
 ├── README.md                  # You are here
 └── requirements.txt           # Python dependencies
-
 ## Setup & Installation
 
 1. **Clone the repository:**
