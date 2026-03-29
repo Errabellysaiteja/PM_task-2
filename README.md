@@ -12,7 +12,7 @@ An autonomous, multi-agent Retrieval-Augmented Generation (RAG) system designed 
 * A Google Gemini API Key
 
 ## Project Structure
-
+```
 ecommerce-resolution-agent/
 ├── .github/
 │   └── workflows/
@@ -30,6 +30,8 @@ ecommerce-resolution-agent/
 ├── evaluation_results.json    # The output metrics from the 20 test cases
 ├── README.md                  # You are here
 └── requirements.txt           # Python dependencies
+
+```
 ## Setup & Installation
 
 1. **Clone the repository:**
