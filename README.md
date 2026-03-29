@@ -11,33 +11,25 @@ An autonomous, multi-agent Retrieval-Augmented Generation (RAG) system designed 
 * Python 3.10+
 * A Google Gemini API Key
 
-## Workflow
+## Project Structure
 
-[ Inputs ]
-   ├── Free-form Ticket Text
-   └── Structured Order Context (JSON)
-        ↓
-[ CrewAI Orchestration Engine (Powered by Gemini 2.5 Flash) ]
-   │
-   ├── 1. Triage Agent
-   │      ↳ Classifies issue, checks for missing data, drafts clarifying questions.
-   │
-   ├── 2. Policy Retriever Agent
-   │      ↳ Queries the Vector Database using the custom Policy Search Tool.
-   │      │
-   │      ├── [ RAG Database ]
-   │      │    ↳ Raw Documents → Text Splitter → HuggingFace Embeddings → ChromaDB
-   │      │
-   │      ↳ Extracts exact text chunks and appends source document metadata.
-   │
-   ├── 3. Resolution Writer Agent
-   │      ↳ Drafts the customer-facing response using ONLY retrieved evidence.
-   │
-   └── 4. Compliance & Safety Agent
-          ↳ Audits the draft. Blocks unsupported claims and ensures citations are present.
-        ↓
-[ Output ]
-   └── Structured JSON Resolution (Decision, Rationale, Citations, Customer Draft)
+ecommerce-resolution-agent/
+├── .github/
+│   └── workflows/
+│       └── ci.yml             # GitHub Actions CI/CD pipeline
+├── data/
+│   └── policies/              # Raw e-commerce policy text files
+├── src/
+│   ├── __init__.py
+│   ├── agents.py              # CrewAI agent definitions & backstories
+│   ├── evaluate.py            # 20-ticket batch testing script
+│   ├── main.py                # Entry point & tool integration
+│   ├── rag_pipeline.py        # Document ingestion & ChromaDB setup
+│   └── tasks.py               # Pydantic JSON schemas & task instructions
+├── .gitignore                 # Keeps API keys and DBs out of version control
+├── evaluation_results.json    # The output metrics from the 20 test cases
+├── README.md                  # You are here
+└── requirements.txt           # Python dependencies
 
 ## Setup & Installation
 
